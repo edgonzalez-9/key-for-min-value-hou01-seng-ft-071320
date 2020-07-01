@@ -41,7 +41,7 @@ describe "smallest hash value" do
   end
 
   it "does not call the `#min_by` method" do
-    hash = {:blake => 500, :ashley => 2, :adam => 1}
+     hash = {:blake => 500, :ashley => 2, :adam => 1}
 
     expect(hash).to_not receive(:min_by)
 
