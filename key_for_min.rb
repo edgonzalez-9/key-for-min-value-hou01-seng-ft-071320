@@ -13,4 +13,4 @@ def find_key_with_min_value(hash)
   min_key
 end 
 
-puts find_key_with_min_value(hash)
+
